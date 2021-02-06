@@ -159,14 +159,14 @@ bot.on('messageReactionAdd', async (reaction, user) => {
                     id: reaction.message.guild.roles.everyone,
                     deny: ["VIEW_CHANNEL"]
                 },
-								{
-										id: '803911013417222174',
-										allow: ["SEND_MESSAGES", "VIEW_CHANNEL"]
-								},
-								{
-										id: '803958454540173323',
-										allow: ["SEND_MESSAGES", "VIEW_CHANNEL"]
-								}
+		{
+		   id: '803911013417222174',
+		   allow: ["SEND_MESSAGES", "VIEW_CHANNEL"]
+		},
+                {
+		   id: '803958454540173323',
+	           allow: ["SEND_MESSAGES", "VIEW_CHANNEL"]
+		}
             ],
             type: 'text',
             parent: '800594004126859335',
