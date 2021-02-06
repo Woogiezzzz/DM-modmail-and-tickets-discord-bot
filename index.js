@@ -3,7 +3,6 @@ const keepAlive = require('./server');
 const db = require('quick.db');
 const ms = require('ms');
 const botsettings = require('./botsettings.json')
-const { links } = require('./links.json')
 
 
 const bot = new Discord.Client({partials: ["MESSAGE", "USER", "REACTION"]});
